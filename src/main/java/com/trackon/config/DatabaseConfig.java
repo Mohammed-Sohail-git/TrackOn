@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class DatabaseConfig {
     private static final String URL = "jdbc:mysql://localhost:3306/trackon_db";
-    private static final String USER = "root";
-    private static final String PASSWORD = "sohail067";
+    private static final String USER = "YOUR USERNAME";
+    private static final String PASSWORD = "YOUR PASSWORD";
     
     public static Connection getConnection() throws SQLException {
         try {
